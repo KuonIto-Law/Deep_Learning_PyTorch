@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"import json; nb=json.load\\(open\\('ag_news.ipynb','r',encoding='utf-8'\\)\\); [print\\(f'=== Cell {i} \\({c[\\\\\"cell_type\\\\\"]}\\) ===\\\\n'+''.join\\(c['source']\\)[:500]+'\\\\n'\\) for i,c in enumerate\\(nb['cells']\\)]\")"
+    ]
+  }
+}
